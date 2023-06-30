@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+"""
+Bash script that displays listening ports
+Uses netstat: tool that can provide information about network connections
+"""
+
+netstat -tunlp
